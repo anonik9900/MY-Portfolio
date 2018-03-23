@@ -1,0 +1,1834 @@
+.cont_space {
+
+width:100%;
+height:10px;
+
+background: -moz-linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(224,178,79,1)), color-stop(100%, rgba(236,202,102,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecca66', endColorstr='#e0b24f',GradientType=1 ); /* ie6-9 */
+
+}
+
+.balance_space {
+
+width:100%;
+height:3px;
+
+background: -moz-linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(224,178,79,1)), color-stop(100%, rgba(236,202,102,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(224,178,79,1) 0%, rgba(236,202,102,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecca66', endColorstr='#e0b24f',GradientType=1 ); /* ie6-9 */
+
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.product-block {margin-bottom:55px; padding:0 20px 0 20px; min-height:541px; position:relative;}
+.product-block.gp {margin-bottom:70px; padding:0 20px 0 20px; min-height:310px; position:relative;}
+.product-block img {display:block; margin:0 auto;}
+.product-block h5 {text-align:center;}
+.product-block span {text-align:center; display:block;}
+.product-block button {text-align:center; margin:0 auto; display:block; margin-bottom:5px;     font-size: 12px;
+    padding: 6px;}
+.product-block .btnCont {position:absolute; bottom:0px; width:100%; left:0px;}
+.product-block span.price {font-weight:bold;margin-top:10px; margin-bottom:10px;}
+
+.table .success {
+    background:#cfd8dc
+}
+.table .primary {
+    background:#bbdefb;
+}
+
+#player_list{
+    border: 1px solid grey;
+    padding-top: 0;
+    padding-bottom: 0;
+    list-style-type: none;
+    padding-left: 0;
+    max-height: 140px;
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    z-index: 999999999999999;
+    background: #fff;
+    }
+
+#player_list li {padding-top:2px; padding-bottom:2px; padding-left:3px;} 
+#player_list li a {font-size:13px; color:#2c3e50; display: block;} 
+#player_list li:hover {background:#2c2c2c; color:#fff;}
+#player_list li a:hover {font-size:13px; color:#fff; background:#2c2c2c;} 
+.marketBody {font-size:13px;}
+.marketBody tr {cursor:pointer;}
+
+.menu-button {
+    display:block;
+}
+
+.float-right {
+    float:right;
+}
+
+.float-left {
+    float:left;
+}
+
+header {
+	padding:0px !important;
+}
+
+.overview_menu {
+    text-align: center;
+    display:block;
+    /*font-weight: bold;*/
+    font-size:15px;
+}
+
+.overview_menu img {
+    margin-top:-4px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.home-icon {
+	font-size:120px !important;
+}
+
+.account-icon {
+    text-align:center;
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
+.account-icon img {
+    width:125px;
+}
+
+.img-responsive {
+	width:100%;
+}
+
+.gradient-icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#e0b24f), to(#2c2c2c));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+.footer_grad {
+background: -moz-linear-gradient(270deg, rgba(56,56,56,1) 0%, rgba(44,44,44,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(56,56,56,1)), color-stop(100%, rgba(44,44,44,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(270deg, rgba(56,56,56,1) 0%, rgba(44,44,44,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(270deg, rgba(56,56,56,1) 0%, rgba(44,44,44,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(270deg, rgba(56,56,56,1) 0%, rgba(44,44,44,1) 100%); /* ie10+ */
+background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(44,44,44,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#2c2c2c',GradientType=0 ); /* ie6-9 */
+}
+
+.greyout {
+    width:100%;
+    height:100%;
+    background:#000;
+    z-index: 99999;
+    position:fixed;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+progress::-moz-progress-bar { background: green; }
+progress::-webkit-progress-value { background: green; }
+progress { color: green; }
+
+
+.menu-container a {color:#2c2c2c;}
+
+.popup {
+    position:fixed;
+    background:#fff;
+    width:300px;
+    height:170px;
+    margin:50px;
+    z-index: 999999;
+    top:50%;
+    left:50%;
+    margin-top: -85px; /* Negative half of height. */
+    margin-left: -150px; /* Negative half of width. */
+    border:5px solid #e0b24f;
+}
+
+
+
+@-webkit-keyframes sway {
+    0%{
+        top:-20px;
+        -webkit-transform: rotateX(-20deg);
+        transform: rotateX(-20deg);
+    }
+
+    3%{
+         margin-left: -2%;
+             -webkit-transform: rotateX(-80deg);
+          transform: rotateX(-80deg);
+    }
+
+    7% {
+        margin-left:1%
+         -webkit-transform: rotateX(-170deg);
+          transform: rotateX(-170deg);
+    }
+  10% {
+    margin-left: 2%;
+      -webkit-transform: rotateX(-230deg);
+          transform: rotateX(-230deg);
+     }
+   16% {
+        margin-left: 5%;
+              -webkit-transform: rotateX(-250deg);
+          transform: rotateX(-250deg);
+   }
+   22% {
+     margin-left: 3%;
+            -webkit-transform: rotateX(-280deg);
+          transform: rotateX(-280deg);
+   }
+
+  28% {
+    margin-left: 0%;
+          -webkit-transform: rotateX(-300deg);
+          transform: rotateX(-300deg);
+     }
+
+  35% {
+    margin-left: 3.5%;
+      -webkit-transform: rotateX(-310deg);
+          transform: rotateX(-310deg);
+  }
+
+  48% {
+    margin-left: 1%;
+     -webkit-transform: rotateX(-350deg);
+          transform: rotateX(-350deg);
+     }
+
+   58% {
+    margin-left: 3.5%;
+     -webkit-transform: rotateX(-310deg);
+          transform: rotateX(-310deg);
+   }
+
+   70%{
+        margin-left: 0.5%;
+         -webkit-transform: rotateX(-280deg);
+          transform: rotateX(-280deg);
+   }
+
+  83% {
+    margin-left: -2%;
+     -webkit-transform: rotateX(-230deg);
+          transform: rotateX(-230deg);
+
+}
+
+  95% {
+    margin-left: 2%;
+  -webkit-transform: rotateX(-200deg);
+          transform: rotateX(-200deg);
+     }
+
+  100% {
+    margin-left: 3%;
+    top: 100%; } 
+}
+
+.packResponse .card-cont {
+    float:left;
+    padding:20px;
+}
+
+.packResponse .card-cont .card_price {
+    text-align: center;
+    font-weight: bold;
+    color:rgba(224,178,79,1);
+}
+
+span.billsBillsBills {
+  padding: 5px;
+  display: block;
+  position: absolute;
+  z-index: 100;
+  -webkit-animation: sway 30s ease-out;
+  animation: sway 30s ease-out;
+   }
+
+@-webkit-keyframes drop{
+  0%{
+    top:0%;
+  }
+   
+  100%{
+    top: 100%;
+  }
+}
+
+
+   span.coinsCoinsCoins{
+  padding: 5px;
+  display: block;
+  position: absolute;
+  z-index: 100;
+  -webkit-animation: drop 4s linear;
+  animation: drop 4s linear;
+   }
+
+
+.popup h3 {
+    font-size:20px;
+    margin-top:10px;
+}
+
+.popup .flag {
+    width:30px;
+}
+
+.login-page-si{
+    text-align: center;
+    margin-top:20px;
+}
+.login-page-r{
+    text-align: center;
+    margin-top:20px;
+}
+
+.login-page-si .form-control{
+    width:300px;
+    margin:0 auto;
+}
+
+.login-page-r .form-control{
+    width:300px;
+    margin:0 auto;
+}
+img {
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+#totalPackValue{
+    text-align: center;
+font-size: 30px;
+}
+
+.pcdisplay {
+    color: #fff;
+    position: relative
+}
+.pcdisplay-name {
+    overflow: hidden
+}
+.pcdisplay div {
+    line-height: 18px;
+    position: absolute
+}
+.ut15.card-med .pcdisplay-wr,
+.ut16.card-med .pcdisplay-wr,
+.ut17.card-med .pcdisplay-wr,
+.ut18.card-med .pcdisplay-wr {
+    padding-left: 4px;
+    padding-right: 3px;
+    z-index: 9999
+}
+
+
+.ut18.pcdisplay {
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative
+}
+.ut18.pcdisplay.card-tiny {
+    cursor: pointer;
+    height: 110px;
+    width: 90px;
+    font-weight: 700
+}
+.ut18.pcdisplay.card-med {
+    cursor: pointer;
+    height: 205px;
+    width: 135px;
+    font-weight: 600
+}
+.ut18.pcdisplay.card-regular {
+    height: 300px;
+    width: 200px;
+    font-weight: 300
+}
+.ut18.card-tiny.pcdisplay.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/goldrnif.png?v=4);
+    border: none;
+    color: #412b18
+}
+.ut18.card-tiny.pcdisplay.gold.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/goldnrnif.png?v=4);
+    color: #412b18
+}
+.ut18.card-tiny.pcdisplay.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/bronzernif.png?v=4);
+    color: #452d17
+}
+.ut18.card-tiny.pcdisplay.bronze.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/bronzenrnif.png?v=4);
+    color: #452d17
+}
+.ut18.card-tiny.pcdisplay.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/silverrnif.png?v=4);
+    color: #2e3136
+}
+.ut18.card-tiny.pcdisplay.silver.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/silvernrnif.png?v=4);
+    color: #2e3136
+}
+.ut18.card-tiny.pcdisplay.if.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/goldinform.png?v=4);
+    color: #000
+}
+.ut18.card-tiny.pcdisplay.if.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/silverinform.png?v=4);
+    color: #92a1aa
+}
+.ut18.card-tiny.pcdisplay.if.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/bronzeinform.png?v=4);
+    color: #c99460
+}
+.ut18.card-tiny.pcdisplay.purple {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/purplec.png?v=4);
+    color: #9774d4
+}
+.ut18.card-tiny.pcdisplay.toty {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/bluec.png?v=4);
+    color: #d0c077
+}
+.ut18.card-tiny.pcdisplay.bluered {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/blueredc.png?v=4);
+    color: #e9f3ff
+}
+.ut18.card-tiny.pcdisplay.stpatrick {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/greenc.png?v=4);
+    color: #104b22
+}
+.ut18.card-tiny.pcdisplay.motm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/orangec.png?v=4);
+    color: #fff
+}
+.ut18.card-tiny.pcdisplay.pink {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/pinkc.png?v=4);
+    color: #be6387
+}
+.ut18.card-tiny.pcdisplay.pro {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/pro.png?v=4);
+    color: #5bb1b0
+}
+.ut18.card-tiny.pcdisplay.tots.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/totsg.png?v=4);
+    color: #e8dc9b
+}
+.ut18.card-tiny.pcdisplay.tots.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/totss.png?v=4);
+    color: #dee6ec
+}
+.ut18.card-tiny.pcdisplay.tots.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/totsb.png?v=4);
+    color: #d1a77e
+}
+.ut18.card-tiny.pcdisplay.legend {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/icon.png?v=4);
+    color: #6c4b16
+}
+.ut18.card-tiny.pcdisplay.oldimotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/orangec.png?v=4);
+    color: #fff
+}
+.ut18.card-tiny.pcdisplay.imotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/imotmc.png?v=4);
+    color: #fff
+}
+.ut18.card-tiny.pcdisplay.futties-winners {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/futties.png?v=4);
+    color: #be6387
+}
+.ut18.card-tiny.pcdisplay.storymode {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/storymode.png?v=4);
+    color: #f5f4f4
+}
+.ut18.card-tiny.pcdisplay.fut-champ.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/champion_gold.png?v=4);
+    color: #946e01
+}
+.ut18.card-tiny.pcdisplay.fut-champ.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/champion_silver.png?v=4);
+    color: #626b70
+}
+.ut18.card-tiny.pcdisplay.fut-champ.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/champion_bronze.png?v=4);
+    color: #9e714f
+}
+.ut18.card-tiny.pcdisplay.confmotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/confed_blue_orange_motm.png?v=4);
+    color: #fff
+}
+.ut18.card-tiny.pcdisplay.newimotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/imotmc.png?v=4);
+    color: #fff
+}
+.ut18.card-tiny.pcdisplay.otw {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/otw.png?v=4);
+    color: #bbbdc1
+}
+.ut18.card-tiny.pcdisplay.halloween {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/halloween.png?v=4);
+    color: #d66f14
+}
+.ut18.card-tiny.pcdisplay.movember {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/movember.png?v=4);
+    color: #aea591
+}
+.ut18.card-tiny.pcdisplay.sbc {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/sbc.png?v=4);
+    color: #f5f5f4
+}
+.ut18.card-tiny.pcdisplay.sbc_premium {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/sbc_premium.png?v=4);
+    color: #dad7d7
+}
+.ut18.card-tiny.pcdisplay.promo {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/promoa.png?v=4);
+    color: #155895
+}
+.ut18.card-tiny.pcdisplay.white-blue-mls {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/promob.png?v=4);
+    color: #fff
+}
+.ut18.card-tiny.pcdisplay.award-winner {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/purple_award_winner.png?v=4);
+    color: #fff
+}
+.ut18.card-tiny.pcdisplay.concept {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/conceptc.png?v=4);
+    color: #dff0ff
+}
+.ut18.card-tiny.pcdisplay.icon {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/icon.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-tiny.pcdisplay.marquee {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/marquee.png?v=4);
+    color: #fff
+}
+.ut18.card-tiny.pcdisplay.motm_eu {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/motm_eu.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-tiny.pcdisplay.rtr_contender {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/rtr_contender.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-tiny.pcdisplay.rtr_worldcup.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/rtr_worldcup_gold.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-tiny.pcdisplay.rtr_worldcup.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/rtr_worldcup_silver.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-tiny.pcdisplay.rtr_selected {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/rtr_selected.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-tiny.pcdisplay.united {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/tiny/united.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-med.pcdisplay.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/goldrnif.png?v=4);
+    border: none;
+    color: #412b18
+}
+.ut18.card-med.pcdisplay.gold.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/goldnrnif.png?v=4);
+    color: #412b18
+}
+.ut18.card-med.pcdisplay.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/bronzernif.png?v=4);
+    color: #452d17
+}
+.ut18.card-med.pcdisplay.bronze.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/bronzenrnif.png?v=4);
+    color: #452d17
+}
+.ut18.card-med.pcdisplay.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/silverrnif.png?v=4);
+    color: #2e3136
+}
+.ut18.card-med.pcdisplay.silver.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/silvernrnif.png?v=4);
+    color: #2e3136
+}
+.ut18.card-med.pcdisplay.if.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/goldinform.png?v=4);
+    color: #cebe75
+}
+.ut18.card-med.pcdisplay.if.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/silverinform.png?v=4);
+    color: #92a1aa
+}
+.ut18.card-med.pcdisplay.if.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/bronzeinform.png?v=4);
+    color: #c99460
+}
+.ut18.card-med.pcdisplay.purple {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/purplec.png?v=4);
+    color: #9774d4
+}
+.ut18.card-med.pcdisplay.toty {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/bluec.png?v=4);
+    color: #d0c077
+}
+.ut18.card-med.pcdisplay.bluered {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/blueredc.png?v=4);
+    color: #e9f3ff
+}
+.ut18.card-med.pcdisplay.stpatrick {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/greenc.png?v=4);
+    color: #104b22
+}
+.ut18.card-med.pcdisplay.motm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/orangec.png?v=4);
+    color: #fff
+}
+.ut18.card-med.pcdisplay.pink {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/pinkc.png?v=4);
+    color: #be6387
+}
+.ut18.card-med.pcdisplay.pro {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/pro.png?v=4);
+    color: #5bb1b0
+}
+.ut18.card-med.pcdisplay.tots.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/totsg.png?v=4);
+    color: #e8dc9b
+}
+.ut18.card-med.pcdisplay.tots.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/totss.png?v=4);
+    color: #dee6ec
+}
+.ut18.card-med.pcdisplay.tots.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/totsb.png?v=4);
+    color: #d1a77e
+}
+.ut18.card-med.pcdisplay.legend {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/icon.png?v=4);
+    color: #6c4b16
+}
+.ut18.card-med.pcdisplay.oldimotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/orangec.png?v=4);
+    color: #fff
+}
+.ut18.card-med.pcdisplay.imotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/imotmc.png?v=4);
+    color: #fff
+}
+.ut18.card-med.pcdisplay.futties-winners {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/futties.png?v=4);
+    color: #be6387
+}
+.ut18.card-med.pcdisplay.storymode {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/storymode.png?v=4);
+    color: #f5f4f4
+}
+.ut18.card-med.pcdisplay.fut-champ.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/champion_gold.png?v=4);
+    color: #946e01
+}
+.ut18.card-med.pcdisplay.fut-champ.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/champion_silver.png?v=4);
+    color: #626b70
+}
+.ut18.card-med.pcdisplay.fut-champ.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/champion_bronze.png?v=4);
+    color: #9e714f
+}
+.ut18.card-med.pcdisplay.confmotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/confed_blue_orange_motm.png?v=4);
+    color: #fff
+}
+.ut18.card-med.pcdisplay.newimotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/imotmc.png?v=4);
+    color: #fff
+}
+.ut18.card-med.pcdisplay.otw {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/otw.png?v=4);
+    color: #bbbdc1
+}
+.ut18.card-med.pcdisplay.halloween {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/halloween.png?v=4);
+    color: #d66f14
+}
+.ut18.card-med.pcdisplay.movember {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/movember.png?v=4);
+    color: #aea591
+}
+.ut18.card-med.pcdisplay.sbc {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/sbc.png?v=7);
+    color: #f5f5f4
+}
+.ut18.card-med.pcdisplay.sbc_premium {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/sbc_premium.png?v=4);
+    color: #dad7d7
+}
+.ut18.card-med.pcdisplay.promo {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/promoa.png?v=4);
+    color: #155895
+}
+.ut18.card-med.pcdisplay.white-blue-mls {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/promob.png?v=4);
+    color: #000
+}
+.ut18.card-med.pcdisplay.award-winner {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/purple_award_winner.png?v=4);
+    color: #af9155
+}
+.ut18.card-med.pcdisplay.concept {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/conceptc.png?v=4);
+    color: #dff0ff
+}
+.ut18.card-med.pcdisplay.icon {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/icon.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-med.pcdisplay.marquee {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/marquee.png?v=4);
+    color: #c0ff36
+}
+.ut18.card-med.pcdisplay.motm_eu {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/motm_eu.png?v=4);
+    color: #1b51a3
+}
+.ut18.card-med.pcdisplay.rtr_contender {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/rtr_contender.png?v=4);
+    color: #324379
+}
+.ut18.card-med.pcdisplay.rtr_selected {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/rtr_selected.png?v=4);
+    color: #1c2f69
+}
+.ut18.card-med.pcdisplay.rtr_worldcup.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/rtr_worldcup_silver.png?v=4);
+    color: #d1d7dd
+}
+.ut18.card-med.pcdisplay.rtr_worldcup.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/rtr_worldcup_gold.png?v=4);
+    color: #c6ae63
+}
+.ut18.card-med.pcdisplay.united {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/united.png?v=4);
+    color: #201c55
+}
+.ut18.card-regular.pcdisplay.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/goldrnif.png?v=4);
+    border: none;
+    color: #412b18
+}
+.border_top,
+.footer_option {
+    border-top: 3px solid #55CCA2
+}
+.ut18.card-regular.pcdisplay.gold.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/goldnrnif.png?v=4);
+    color: #412b18
+}
+.ut18.card-regular.pcdisplay.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/bronzernif.png?v=4);
+    color: #452d17
+}
+.ut18.card-regular.pcdisplay.bronze.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/bronzenrnif.png?v=4);
+    color: #452d17
+}
+.ut18.card-regular.pcdisplay.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/silverrnif.png?v=4);
+    color: #2e3136
+}
+.ut18.card-regular.pcdisplay.silver.non-rare {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/silvernrnif.png?v=4);
+    color: #2e3136
+}
+.ut18.card-regular.pcdisplay.if.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/goldinform.png?v=4);
+    color: #cebe75
+}
+.ut18.card-regular.pcdisplay.if.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/silverinform.png?v=4);
+    color: #92a1aa
+}
+.ut18.card-regular.pcdisplay.if.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/bronzeinform.png?v=4);
+    color: #c99460
+}
+.ut18.card-regular.pcdisplay.purple {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/purplec.png?v=4);
+    color: #9774d4
+}
+.ut18.card-regular.pcdisplay.toty {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/bluec.png?v=4);
+    color: #d0c077
+}
+.ut18.card-regular.pcdisplay.bluered {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/blueredc.png?v=4);
+    color: #e9f3ff
+}
+.ut18.card-regular.pcdisplay.stpatrick {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/greenc.png?v=4);
+    color: #104b22
+}
+.ut18.card-regular.pcdisplay.motm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/orangec.png?v=4);
+    color: #fff
+}
+.ut18.card-regular.pcdisplay.pink {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/pinkc.png?v=4);
+    color: #be6387
+}
+.ut18.card-regular.pcdisplay.pro {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/pro.png?v=4);
+    color: #5bb1b0
+}
+.ut18.card-regular.pcdisplay.tots.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/totsg.png?v=4);
+    color: #e8dc9b
+}
+.ut18.card-regular.pcdisplay.tots.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/totss.png?v=4);
+    color: #dee6ec
+}
+.ut18.card-regular.pcdisplay.tots.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/totsb.png?v=4);
+    color: #d1a77e
+}
+.ut18.card-regular.pcdisplay.legend {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/icon.png?v=4);
+    color: #6c4b16
+}
+.ut18.card-regular.pcdisplay.oldimotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/orangec.png?v=4);
+    color: #fff
+}
+.ut18.card-regular.pcdisplay.imotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/imotmc.png?v=4);
+    color: #fff
+}
+.ut18.card-regular.pcdisplay.futties-winners {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/futties.png?v=4);
+    color: #be6387
+}
+.ut18.card-regular.pcdisplay.storymode {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/storymode.png?v=4);
+    color: #f5f4f4
+}
+.ut18.card-regular.pcdisplay.fut-champ.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/champion_gold.png?v=4);
+    color: #946e01
+}
+.ut18.card-regular.pcdisplay.fut-champ.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/champion_silver.png?v=4);
+    color: #626b70
+}
+.ut18.card-regular.pcdisplay.fut-champ.bronze {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/champion_bronze.png?v=4);
+    color: #9e714f
+}
+.ut18.card-regular.pcdisplay.confmotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/confed_blue_orange_motm.png?v=4);
+    color: #fff
+}
+.ut18.card-regular.pcdisplay.newimotm {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/imotmc.png?v=4);
+    color: #fff
+}
+.ut18.card-regular.pcdisplay.otw {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/otw.png?v=4);
+    color: #828384
+}
+.ut18.card-regular.pcdisplay.halloween {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/halloween.png?v=4);
+    color: #d66f14
+}
+.ut18.card-regular.pcdisplay.movember {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/movember.png?v=4);
+    color: #aea591
+}
+.ut18.card-regular.pcdisplay.sbc {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/sbc.png?v=5);
+    color: #f5f5f4
+}
+.ut18.card-regular.pcdisplay.sbc_premium {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/sbc_premium.png?v=5);
+    color: #dad7d7
+}
+.ut18.card-regular.pcdisplay.promo {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/promoa.png?v=4);
+    color: #155895
+}
+.ut18.card-regular.pcdisplay.white-blue-mls {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/promob.png?v=4);
+    color: #000
+}
+.ut18.card-regular.pcdisplay.award-winner {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/purple_award_winner.png?v=4);
+    color: #af9155
+}
+.ut18.card-regular.pcdisplay.concept {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/conceptc.png?v=4);
+    color: #dff0ff!important
+}
+.ut18.card-regular.pcdisplay.icon {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/icon.png?v=4);
+    color: #1e3c5c
+}
+.ut18.card-regular.pcdisplay.marquee {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/marquee.png?v=4);
+    color: #c0ff36
+}
+.ut18.card-regular.pcdisplay.motm_eu {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/motm_eu.png?v=4);
+    color: #1b51a3
+}
+.ut18.card-regular.pcdisplay.rtr_contender {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/rtr_contender.png?v=4);
+    color: #324379
+}
+.ut18.card-regular.pcdisplay.rtr_selected {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/rtr_selected.png?v=4);
+    color: #1c2f69
+}
+.ut18.card-regular.pcdisplay.rtr_worldcup.silver {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/rtr_worldcup_silver.png?v=4);
+    color: #d1d7dd
+}
+.ut18.card-regular.pcdisplay.rtr_worldcup.gold {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/rtr_worldcup_gold.png?v=4);
+    color: #c6ae63
+}
+.ut18.card-regular.pcdisplay.united {
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/united.png?v=4);
+    color: #201c55
+}
+.ut18.card-regular .pcdisplay-chem-style-name {
+    font-size: 14px;
+    line-height: 44px;
+    top: 228px;
+    left: 1px;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+    width: 180px;
+    text-align: center
+}
+.ut18.card-regular .pcdisplay-rat {
+    font-size: 22px;
+    left: 14px;
+    line-height: 44px;
+    top: 32px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-name,
+.ut18.card-regular .pcdisplay-pos {
+    font-family: "Fjalla One", sans-serif;
+    text-align: center
+}
+.ut18.card-regular .pcdisplay-name {
+    font-size: 18px;
+    left: 45px;
+    top: 138px;
+    width: 137px;
+    text-transform: uppercase;
+    letter-spacing: -.2px;
+    line-height: 26px
+}
+.ut18.card-med .pcdisplay-name,
+.ut18.card-med .pcdisplay-name-diff {
+    text-transform: uppercase;
+    overflow: hidden!important;
+    text-overflow: ellipsis;
+    letter-spacing: -.6px;
+    white-space: nowrap
+}
+.ut18.card-regular .pcdisplay-pos {
+    font-size: 14px;
+    top: 64px;
+    width: 30px;
+    font-weight: 500;
+    left: 12px
+}
+.ut18.card-regular .pcdisplay-country {
+    left: 10px;
+    top: 120px;
+    width: 37px;
+    text-align: center
+}
+.ut18.card-regular .pcdisplay-country img {
+    max-width: 32px
+}
+.ut18.card-regular .pcdisplay-picture {
+    height: 115px;
+    left: 58px;
+    top: 23px;
+    width: 115px
+}
+.ut18.card-regular .pcdisplay-club {
+    left: 10px;
+    position: absolute;
+    top: 84px
+}
+.ut18.card-regular .pcdisplay-club img {
+    width: 34px
+}
+.ut18.card-med .pcdisplay-wr {
+    top: 14px;
+    left: 46px;
+    font-size: 11px;
+    font-weight: 700;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+.ovrhover {
+    font-weight: 600
+}
+.ut18.card-regular>.ovrhover {
+    left: 5px
+}
+.ut18.card-regular>.ovrhover>.main-stat-diff {
+    width: 20px;
+    text-align: center
+}
+.ut18.card-regular>.ovrhover>.main-stat-diff-1 {
+    left: 39px;
+    top: 170px
+}
+.ut18.card-regular>.ovrhover>.main-stat-diff-2 {
+    left: 39px;
+    top: 191px
+}
+.ut18.card-regular>.ovrhover>.main-stat-diff-3 {
+    left: 39px;
+    top: 213px
+}
+.ut18.card-regular>.ovrhover>.main-stat-diff-4 {
+    left: 160px;
+    top: 169px
+}
+.ut18.card-regular>.ovrhover>.main-stat-diff-5 {
+    left: 160px;
+    top: 190px
+}
+.ut18.card-regular>.ovrhover>.main-stat-diff-6 {
+    left: 160px;
+    top: 212px
+}
+.ut18.card-regular .pcdisplay-ovr1 {
+    font-size: 17px;
+    left: 58px;
+    top: 169px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-card-pace {
+    font-size: 16px;
+    left: 82px;
+    top: 169px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+.ut18.card-regular .pcdisplay-chem-style-pace {
+    font-size: 11px;
+    left: 18px;
+    top: 169px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-ovr2 {
+    font-size: 17px;
+    left: 58px;
+    top: 190px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-card-shoo {
+    font-size: 16px;
+    left: 82px;
+    top: 190px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+.ut18.card-regular .pcdisplay-chem-style-shoo {
+    font-size: 11px;
+    left: 18px;
+    top: 190px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-ovr3 {
+    font-size: 17px;
+    left: 58px;
+    top: 212px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-card-pas {
+    font-size: 16px;
+    left: 82px;
+    top: 212px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+.ut18.card-regular .pcdisplay-chem-style-pas {
+    font-size: 11px;
+    left: 18px;
+    top: 212px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-ovr4 {
+    font-size: 17px;
+    left: 115px;
+    top: 169px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-card-dri {
+    font-size: 16px;
+    left: 138px;
+    top: 169px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+.ut18.card-regular .pcdisplay-chem-style-dri {
+    font-size: 11px;
+    left: 161px;
+    top: 169px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-ovr5 {
+    font-size: 17px;
+    left: 115px;
+    top: 190px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-card-def {
+    font-size: 16px;
+    left: 138px;
+    top: 190px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+.ut18.card-regular .pcdisplay-chem-style-def {
+    font-size: 11px;
+    left: 161px;
+    top: 192px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-ovr6 {
+    font-size: 17px;
+    left: 115px;
+    top: 212px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-card-phy {
+    font-size: 16px;
+    left: 138px;
+    top: 212px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+.ut18.card-regular .pcdisplay-chem-style-phy {
+    font-size: 11px;
+    left: 161px;
+    top: 212px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-regular .pcdisplay-ovr7 {
+    font-size: 12px;
+    top: 242px;
+    margin: auto;
+    width: 190px;
+    text-align: Center
+}
+.main-stat-diff {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+    width: 15px;
+    text-align: center
+}
+.ut18.card-med .main-stat-diff-1 {
+    left: 2px;
+    top: 112px
+}
+.ut18.card-med .main-stat-diff-2 {
+    left: 2px;
+    top: 127px
+}
+.ut18.card-med .main-stat-diff-3 {
+    left: 2px;
+    top: 142px
+}
+.ut18.card-med .main-stat-diff-4 {
+    left: 106px;
+    top: 112px
+}
+.ut18.card-med .main-stat-diff-5 {
+    left: 106px;
+    top: 127px
+}
+.ut18.card-med .main-stat-diff-6 {
+    left: 106px;
+    top: 142px
+}
+.ut18.card-med .pcdisplay-picture {
+    left: 45px;
+    top: 22px
+}
+.ut18.card-med .pcdisplay-picture img {
+    height: 74px;
+    width: 74px
+}
+.ut18.card-tiny .pcdisplay-rat {
+    font-size: 14px;
+    left: 5px;
+    line-height: 44px;
+    top: 5px;
+    width: 30px;
+    text-align: center
+}
+.ut18.card-tiny .pcdisplay-name {
+    font-size: 11px;
+    left: 5px;
+    text-align: center;
+    top: 76px;
+    width: 70px;
+    font-weight: 700
+}
+.ut18.card-tiny .pcdisplay-position {
+    font-size: 9px;
+    font-weight: 700;
+    left: 5px;
+    top: 28px;
+    width: 30px;
+    text-align: center
+}
+.ut18.card-tiny .pcdisplay-country {
+    left: 13px;
+    top: 58px
+}
+.ut18.card-tiny .pcdisplay-country img {
+    max-width: 15px
+}
+.ut18.card-med .pcdisplay-country img,
+.ut18.card-med .pcdisplay-country-diff img {
+    max-width: 22px
+}
+.ut18.card-tiny .pcdisplay-picture {
+    left: 28px;
+    top: 29px;
+    width: 50px
+}
+.ut18.card-tiny .pcdisplay-club {
+    left: 13px;
+    position: absolute;
+    top: 42px
+}
+.ut18.card-tiny .pcdisplay-club img {
+    width: 15px
+}
+.ut18.card-med .pcdisplay-rat {
+    font-size: 18px;
+    left: 7px;
+    line-height: 24px;
+    top: 26px;
+    font-weight: 700
+}
+.ut18.card-med .pcdisplay-name {
+    font-size: 11px;
+    left: 31px;
+    line-height: 16px;
+    top: 98px;
+    width: 95px;
+    font-weight: 700;
+    text-align: center
+}
+.ut18.card-med .pcdisplay-pos {
+    font-size: 11px;
+    left: 3px;
+    top: 43px;
+    width: 30px;
+    font-weight: 700!important;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center
+}
+.ut18.card-med .pcdisplay-chem {
+    color: #FFF;
+    font-size: 12px;
+    left: 58px;
+    top: 108px;
+    width: 65px
+}
+.ut18.card-med .pcdisplay-workrates {
+    color: #FFF;
+    font-size: 12px;
+    left: 26px;
+    top: 108px
+}
+.ut18.card-med .pcdisplay-country {
+    left: 7px;
+    top: 85px
+}
+.ut18.card-med .pcdisplay-club {
+    left: 6px;
+    top: 62px
+}
+.ut18.card-med .pcdisplay-club img {
+    width: 24px
+}
+.ut18.card-med .pcdisplay-ovr1 {
+    font-size: 10px;
+    left: 32px;
+    top: 117px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-pace {
+    font-size: 10px;
+    left: 47px;
+    top: 118px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400
+}
+.ut18.card-med .pcdisplay-ovr2 {
+    font-size: 10px;
+    left: 32px;
+    top: 132px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-sho {
+    font-size: 10px;
+    left: 47px;
+    top: 133px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400
+}
+.ut18.card-med .pcdisplay-ovr3 {
+    font-size: 10px;
+    left: 32px;
+    top: 147px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-pas {
+    font-size: 10px;
+    left: 47px;
+    top: 148px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400
+}
+.ut18.card-med .pcdisplay-ovr4 {
+    font-size: 10px;
+    left: 72px;
+    top: 117px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-dri {
+    font-size: 10px;
+    left: 86px;
+    top: 118px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400
+}
+.ut18.card-med .pcdisplay-ovr5 {
+    font-size: 10px;
+    left: 72px;
+    top: 132px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-def {
+    font-size: 10px;
+    left: 86px;
+    top: 133px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400
+}
+.ut18.card-med .pcdisplay-ovr6 {
+    font-size: 10px;
+    left: 72px;
+    top: 147px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-phy {
+    font-size: 10px;
+    left: 86px;
+    top: 148px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400
+}
+.ut18.card-med .pcdisplay-ovr7 {
+    font-size: 10px;
+    left: 16px;
+    top: 20px
+}
+.ut18.card-med .pcdisplay-rat-diff {
+    font-size: 19px;
+    left: 6px;
+    line-height: 24px;
+    top: 26px;
+    font-weight: 700
+}
+.ut18.card-med .pcdisplay-name-diff {
+    font-size: 12px;
+    left: 31px;
+    line-height: 16px;
+    top: 97px;
+    width: 95px;
+    font-weight: 700;
+    text-align: center
+}
+.ut18.card-med .pcdisplay-pos-diff {
+    font-size: 11px;
+    left: 3px;
+    top: 43px;
+    width: 30px;
+    font-weight: 700!important;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center
+}
+.ut18.card-med .pcdisplay-chem-diff {
+    color: #FFF;
+    font-size: 12px;
+    left: 58px;
+    top: 108px;
+    width: 65px
+}
+.ut18.card-med .pcdisplay-workrates-diff {
+    color: #FFF;
+    font-size: 12px;
+    left: 26px;
+    top: 108px
+}
+.ut18.card-med .pcdisplay-country-diff {
+    left: 7px;
+    top: 85px
+}
+.ut18.card-med .pcdisplay-picture-diff {
+    left: 55px;
+    top: 22px
+}
+.ut18.card-med .pcdisplay-picture-diff img {
+    height: 74px;
+    width: 74px
+}
+.ut18.card-med .pcdisplay-club-diff {
+    left: 6px;
+    top: 62px
+}
+.ut18.card-med .pcdisplay-club-diff img {
+    width: 24px
+}
+.ut18.card-med .base-stats,
+.ut18.card-med .ovrhover {
+    left: 8px
+}
+.ut18.card-med .pcdisplay-ovr1-diff {
+    font-size: 14px;
+    left: 32px;
+    top: 117px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-pace-diff {
+    font-size: 12px;
+    left: 50px;
+    top: 118px;
+    font-family: 'Open Sans Condensed', sans-serif
+}
+.ut18.card-med .pcdisplay-ovr2-diff {
+    font-size: 14px;
+    left: 32px;
+    top: 132px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-sho-diff {
+    font-size: 12px;
+    left: 50px;
+    top: 133px;
+    font-family: 'Open Sans Condensed', sans-serif
+}
+.ut18.card-med .pcdisplay-ovr3-diff {
+    font-size: 14px;
+    left: 32px;
+    top: 147px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-pas-diff {
+    font-size: 13px;
+    left: 50px;
+    top: 148px;
+    font-family: 'Open Sans Condensed', sans-serif
+}
+.ut18.card-med .pcdisplay-ovr4-diff {
+    font-size: 14px;
+    left: 72px;
+    top: 117px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-dri-diff {
+    font-size: 13px;
+    left: 90px;
+    top: 118px;
+    font-family: 'Open Sans Condensed', sans-serif
+}
+.ut18.card-med .pcdisplay-ovr5-diff {
+    font-size: 14px;
+    left: 72px;
+    top: 132px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-def-diff {
+    font-size: 13px;
+    left: 90px;
+    top: 133px;
+    font-family: 'Open Sans Condensed', sans-serif
+}
+.ut18.card-med .pcdisplay-ovr6-diff {
+    font-size: 14px;
+    left: 72px;
+    top: 147px;
+    font-weight: 700;
+    font-family: Lato, sans-serif
+}
+.ut18.card-med .card-phy-diff {
+    font-size: 13px;
+    left: 90px;
+    top: 148px;
+    font-family: 'Open Sans Condensed', sans-serif
+}
+.managercard18,
+.ut18.managercard18 {
+    color: #fff;
+    font-family: "Open Sans", Arial, sans-serif
+}
+.ut18.card-med .pcdisplay-ovr7-diff {
+    font-size: 12px;
+    left: 16px;
+    top: 20px
+}
+.managercard18 {
+    position: relative
+}
+.managercard18 div {
+    line-height: 18px;
+    position: absolute;
+    top: 60px;
+    left: 14px
+}
+.ut18.managercard18 {
+    background-repeat: no-repeat;
+    position: relative
+}
+.ut18.managercard18.card-tiny {
+    cursor: pointer;
+    height: 110px;
+    width: 90px;
+    font-weight: 700
+}
+.ut18.managercard18.card-med {
+    cursor: pointer;
+    height: 200px;
+    width: 135px
+}
+.ut18.card-med.managercard18.Gold {
+    color: #000;
+    background: url(https://www.futbin.com/content/fifa18/img/cards/med/goldnrnif.png) 25% 1px no-repeat
+}
+.ut18.card-med.managercard18.Gold.Rare {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/goldrnif.png)
+}
+.ut18.card-med.managercard18.Bronze {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/bronzenrnif.png)
+}
+.ut18.card-med.managercard18.Bronze.Rare {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/bronzernif.png)
+}
+.ut18.card-med.managercard18.Silver {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/silvernrnif.png)
+}
+.ut18.card-med.managercard18.Silver.Rare {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/cards/med/silverrnif.png)
+}
+#manager-card-added {
+    background-repeat: no-repeat;
+    background-size: 90px 120px;
+    position: absolute;
+    height: 120px;
+    width: 90px;
+    cursor: default;
+    margin-left: 2%
+}
+.ut18.managercard18-added.card-small {
+    cursor: pointer;
+    height: 80px;
+    width: 100px
+}
+.ut18.card-small .manager-added-picture img {
+    position: relative;
+    width: 60px;
+    left: 28px;
+    top: -24px
+}
+.ut18.card-small .manager-pic-added-country img {
+    position: relative;
+    top: 25px;
+    width: 30px;
+    left: 10px
+}
+.ut18.card-small .manager-added-picture-league img {
+    position: relative;
+    width: 35px;
+    top: 26px;
+    left: 6px
+}
+.ut18.card-small .manager-added-name {
+    position: relative;
+    top: -24px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700
+}
+.ut18.card-small.managercard18-added.Gold {
+    color: #000;
+    background: url(https://www.futbin.com/content/fifa18/img/managers18/card/tiny-nonrare-gold.png) 25% 1px no-repeat
+}
+.ut18.card-small.managercard18-added.Gold.Rare {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/managers18/card/tiny-rare-gold.png)
+}
+.ut18.card-small.managercard18-added.Bronze {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/managers18/card/tiny-nonrare-bronze.png)
+}
+.ut18.card-small.managercard18-added.Bronze.Rare {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/managers18/card/tiny-rare-bronze.png)
+}
+.ut18.card-small.managercard18-added.Silver {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/managers18/card/tiny-nonrare-silver.png)
+}
+.ut18.card-small.managercard18-added.Silver.Rare {
+    color: #000;
+    background-image: url(https://www.futbin.com/content/fifa18/img/managers18/card/tiny-rare-silver.png)
+}
+.ut18.card-med .managercard18-rat {
+    font-size: 19px;
+    left: 25px;
+    line-height: 24px;
+    top: 20px;
+    font-weight: 700
+}
+.ut18.card-med .managercard18-League,
+.ut18.card-med .managercard18-country-name,
+.ut18.card-med .managercard18-name {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    width: 100%;
+    font-weight: 700
+}
+.ut18.card-med .managercard18-name {
+    left: 0;
+    top: 100px
+}
+.ut18.card-med .managercard18-League {
+    left: 0;
+    top: 122px
+}
+.ut18.card-med .managercard18-contracts {
+    color: #000;
+    font-size: 13px;
+    left: 25px;
+    top: 142px
+}
+.ui-widget-content a,
+.ui-widget-header,
+.ui-widget-header a {
+    color: #222
+}
+.ut18.card-med .managercard18-country-name {
+    left: 0;
+    top: 167px
+}
+.ut18.card-med .managercard18-talks {
+    left: 22px;
+    top: 80px
+}
+.ut18.card-med .managercard18-country img {
+    max-width: 80%
+}
+.ut18.card-med .managercard18-picture {
+    left: 55px;
+    top: 27px
+}
+.ut18.card-med .managercard18-picture img {
+    height: 74px;
+    width: 74px
+}
+
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform:     translateY(0);
+    transform:         translateY(0)
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform:     translateY(-30px);
+    transform:         translateY(-30px)
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform:     translateY(-15px);
+    transform:         translateY(-15px)
+  }
+}
+.prd-img {  
+  
+  text-transform: uppercase;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+.prd-img:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+
+.alert {
+    padding: 15px;
+    margin-bottom: .5rem;
+    border: 1px solid transparent;
+    border-radius: .125rem
+}
+.alert-heading {
+    color: inherit
+}
+.alert-link {
+    font-weight: 700
+}
+.alert-dismissible {
+    padding-right: 35px
+}
+.alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit
+}
+.alert-success {
+    background-color: #4caf50;
+    border-color: #449d48;
+    color: #fff
+}
+.alert-success hr {
+    border-top-color: #3d8b40
+}
+.alert-success .alert-link {
+    color: #e6e6e6
+}
+.alert-info {
+    background-color: #03a9f4;
+    border-color: #0391d1;
+    color: #fff
+}
+.alert-info hr {
+    border-top-color: #027fb8
+}
+.alert-info .alert-link {
+    color: #e6e6e6
+}
+.alert-warning {
+    background-color: #ff5722;
+    border-color: #ff4409;
+    color: #fff
+}
+.alert-warning hr {
+    border-top-color: #ee3900
+}
+.alert-warning .alert-link {
+    color: #e6e6e6
+}
+.alert-danger {
+    background-color: #f44336;
+    border-color: #f32c1e;
+    color: #fff
+}
+.alert-danger hr {
+    border-top-color: #ea1c0d
+}
+.alert-danger .alert-link {
+    color: #e6e6e6
+}
+
